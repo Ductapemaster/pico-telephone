@@ -5,7 +5,7 @@
 //-------------------------
 // I2s defines
 //-------------------------
-#define I2S_MIC_INMP441
+// #define I2S_MIC_INMP441
 
 #ifdef I2S_MIC_INMP441
     #ifndef I2S_MIC_SD
