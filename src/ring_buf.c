@@ -27,7 +27,7 @@ bool ringbuf_push(ring_buf_t *rbuf, uint8_t data) {
 }
 
 bool ringbuf_pop(ring_buf_t *rbuf, uint8_t *data) {
-    stdio_flush();
+    // stdio_flush();
     if (rbuf->head == rbuf->tail) {
         // empty
         return false;

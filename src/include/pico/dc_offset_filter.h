@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdint.h>
 
 typedef struct _dc_offset_filter_t {
 	int64_t sample_mean_value_sum;
